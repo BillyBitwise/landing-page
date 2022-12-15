@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>landingPage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- ( ) Paranthesis denote a flexbox container  -->
+<!-- All flexboxes are column direction except (headerTop) and (footer) -->
+
+<!-- (BODY) = (header) + (images) + (review) + (footer)  -->
+<body>
+    
+    <!-- BODY item1  -->
+    <!-- (header) = (headerTop) + (headerBottom)     -->    
+    <div class="header">
+        <div class="headerTop">
+            <div class="headerLogo">
+                <img class="maleKick" src="images/boykick.png">
+                <div class="logo">Twin Dragon</div>
+                <img class="femaleKick" src="images/girlkick.png">
+            </div>
+            <ul class="headerLinks">
+                <li>Beginners</li>
+                <li>Tournaments</li>
+                <li>Instructional Videos</li>
+            </ul>
+        </div>
+
+        <div class="headerBottom">
+            <div class="headerLeft">
+                <div class="hero">Free uniform and white belt</div>
+                <div class="heroText">Sign up today online or in person for our
+                                        three month trial basis and recieve a free karate uniform with white belt.
+                                        &emsp;See if you have what it takes to become a black belt.
+                                        &emsp;Just click on sign up below.
+                                        
+                </div>
+                <button class="signUp">Sign up</button>
+            </div>
+            <div class="headerRight">
+                <img class="heroImage" src="" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- BODY item2  -->
+    <!-- (images) = imgTitle + (imgCards)*4 -->
+    <div class="images">
+        <div class="imgTitle">Some random Information</div>
+        
+        <div class="imgCards">
+            <div class="imgCard">
+                <img src="images/karate-kids.jpg" alt="Kids class">
+                <div class="imgCaption">Kids classes start at the beginning of each month. 
+                                         &nbsp;Students will learn respect, discipline and self defense 
+                                         while making new friends.  </div>
+            </div>
+            <div class="imgCard">
+                <img src="images/tai-chi.jpg" alt="">
+                <div class="imgCaption">Tai Chi classes are available for those that want to relieve stress through
+                                        breathing and meditation exercises.
+                </div>
+            </div>
+            <div class="imgCard">
+                <img src="images/sword.jpg" alt="">
+                <div class="imgCaption">Learn traditional Japanese weapons including wooden staff, sai, tonfa, kama and nunchaku.</div>
+            </div>
+            <div class="imgCard">
+                <img src="images/aikido2.jpg" alt="">
+                <div class="imgCaption">Register early for school tournaments for a chance to compete in the Regionals.</div>
+            </div>
+
+        
+   
+        </div>
+    </div>
+
+    <!-- BODY item3  -->
+    <!-- (review) = <div>*2  -->
+    <div class="review">
+        <div class="quote">This is an inspiring quote, or a testimonial from a customer. 
+        Maybe it's just filling up space, or maybe people will actually read it. 
+        Who knows? All i know is that it looks nice.
+        </div>
+        <div class="author">- Thor, God of Thunder</div>
+    </div>
+
+        <!-- BODY item4  -->
+        <!-- (footer) = (footerLeft) + footerRight  -->
+    <div class="footer">
+        <div class="footerLeft">
+            <div class="footerTitle">Call to Action! It's time!</div>
+            <div class="footerMsg">Sign up for our product by clicking that button right over there!</div>
+        </div>
+        <div class="footerRight">
+            <button class="footerSignUp">Sign up</button>
+        </div>
+    </div>
+
+</body>
+</html>
